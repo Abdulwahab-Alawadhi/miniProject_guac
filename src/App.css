@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+.MainCard {
+  height: 400px;
+  width: 600px;
+  background-color: white;
+  border-radius: 40px;
+  border: 5px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.GuacHoles {
+  background-color: black;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Background {
+  height: 100vh;
+  background-color: cyan;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

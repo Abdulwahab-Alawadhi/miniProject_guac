@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Holes from "./Holes";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Background">
+      <h1>Guac-A-Mole</h1>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "start",
+          // backgroundColor: "blue",
+          width: "600px",
+        }}
+      >
+        <p style={{ fontSize: "30px" }}>Score:0pts</p>
+      </div>
+      <Holes />
     </div>
   );
 }
